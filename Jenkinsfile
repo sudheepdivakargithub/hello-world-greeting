@@ -1,4 +1,4 @@
-node('agent1') { 
+node('built-in') { 
 stage(' Poll') { 
   checkout scm 
 } 
