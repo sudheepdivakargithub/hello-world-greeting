@@ -1,4 +1,4 @@
-node(' docker') { 
+node('agent1') { 
 stage(' Poll') { 
   checkout scm 
 } 
